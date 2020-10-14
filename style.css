@@ -1,0 +1,18 @@
+/*to center the video and add some borders*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#video {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* because the recognition box should be above the video in which face gets detected */
+canvas {
+    position: absolute;
+}
